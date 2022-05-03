@@ -1,0 +1,19 @@
+$TTL 14400
+carformy.com. 86400   IN      SOA     ns1.carformy.com. admin.carformy.com. (
+                                                2017111401 ;Serial Number
+                                                86400 ;refresh
+                                                7200 ;retry
+                                                2400000 ;expire
+                                                86400   )
+carformy.com. 	86400   IN      NS      ns1.carformy.com.
+carformy.com. 	86400   IN      NS      ns2.carformy.com.
+carformy.com.	14400	IN	A	174.136.57.245
+carformy.com.	14400	IN	MX	0	mail.carformy.com.
+mail		14400	IN	A	174.136.57.245
+www		14400	IN	CNAME	carformy.com.
+ftp		14400	IN	A	174.136.57.245
+carformy.com.	14400	IN	TXT	"v=spf1 +a +mx -all"
+_dmarc		14400	IN	TXT	"v=DMARC1; p=reject; sp=none; rf=afrf; pct=100; ri=86400"
+default._domainkey	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLgXGKA9oGucErCyW9ifqWcarz9VLyQ0yM6tD+vKxlS1ZtsIcXuhIK6loxJhkBQbvH/IlNbRrgksMrFFAWuKwO2xdNznE0ic2D7U20BD/bQwSjv259xnqh61JQIoXaifipokOlARfqe4IA4BSDcw5cExvhmpXKC1V7slizD+EXLQIDAQAB;"	
+ns1 14400 IN A 174.136.57.245
+ns2 14400 IN A 174.136.57.245

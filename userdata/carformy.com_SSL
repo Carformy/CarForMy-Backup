@@ -1,0 +1,12 @@
+documentroot: /home/carformy/public_html
+group: carformy
+homedir: /home/carformy
+ip: 174.136.57.245
+port: 443
+serveradmin: webmaster@carformy.com
+serveralias: www.carformy.com
+servername: carformy.com
+user: carformy
+sslcacertificatefile: /etc/letsencrypt/live/carformy.com/chain.pem
+sslcertificatefile: /etc/letsencrypt/live/carformy.com/cert.pem
+sslcertificatekeyfile: /etc/letsencrypt/live/carformy.com/privkey.pem
