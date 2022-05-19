@@ -22,7 +22,9 @@ APP CONDUCTOR: Recibe la confirmacion del viaje
 final de la moficacion, sigue todo funcionando normalmente.
 
 # POS DATA.
- La app de indriver, ofrece que el cliente escriba el valor que quiere pagar por el viaje. aqui no queremos darle esa opcion al cliente, solo recibe presupuestos.
+.
+Estamos viendo que se generan BUG en ciertas zonas...  Este programa se compro en Codecanyon.net con todas las licencias, el 5 de mayo de 2022 bajo el nombre:  https://codecanyon.net/item/ecommerce-system-ionic-6-capacitor-3-mongo-db-super-admin/36744164 
+ pero al subir a Github, mucho codigo no lo sube, ( debug, etc ) pero quizas se necesite para su proceso. Asi que si me llama, le envio la copia zipeada tal cual fue descargada...
  
 Cualquier duda a su Disposicion: Wp +5491153187633  mail: Gustavo@oha.com.ar
 
